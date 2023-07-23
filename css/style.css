@@ -44,13 +44,14 @@ header {
 }
 
 .header_h3 {
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 38px;
     font-family: 'Inter', sans-serif;
     color: rgba(213, 144, 110, 1);
     position: absolute;
     left: 95%;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 38px;
+   
 }
 
 .header_ul {
@@ -63,16 +64,16 @@ header {
 }
 
 .header_li::after {
-    content: "";
-    width: 0;
-    height: 3px;
-
-    position: absolute;
     left: 0;
     bottom: -6px;
     background-color: rgb(218, 175, 135);
 
     transition: .2s ease;
+    width: 0;
+    height: 3px;
+
+    position: absolute;
+    
 }
 
 .header_li:hover::after {
@@ -115,7 +116,7 @@ header {
     font-size: 20px;
     color: rgba(255, 255, 255, 1);
 }
-.bgimg_section {
+.section1 {
     height: 720px;
 
     padding: 283px 30%;
@@ -715,6 +716,39 @@ footer {
 .secondpage_childecard8 {
     grid-area: secondpage_childecard8;
 }
+.second__titlemotherdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.secondtitle_h3{
+    
+    font-size: 24px;
+    font-weight: 400;
+    color: #402101;
+    font-family: 'Inter', sans-serif; 
+}
+.secondtitle_h3:hover{
+    scale: 1.5;
+}
+.second_icon_p{
+    width:10%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border: 2px solid #B53B1B;
+}
+.fa-up-down{
+    color: #402101;
+}
+.second_title_h5{
+    font-size: 24px;
+    font-weight: 400;
+    color: #402101;
+    font-family: 'Inter', sans-serif; 
+    
+    
+}
+
 .childeimg_div2 {
     height: 240px;
     border-radius: 8px;
@@ -851,6 +885,12 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 36px;
+}
+.childe_img2:hover{
+    scale:1.5 ;
+}
+.headerlogo_a:hover{
+    scale: 1.5;
 }
 
 .third_input {
